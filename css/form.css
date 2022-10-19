@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Long+Cang&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	color: black;
+    background-color: #7b819c;
+    /* background-color: #646c93; */
+}
+
+
+#title {
+    color: black;
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 1.6em;
+}
+
+#description {
+    color: black;
+    text-align: center;
+    font-size: 0.7em;
+    margin-bottom: 35px;
+}
+
+form {
+    padding: 1rem;
+    background: white;
+    border: none;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .4);
+    border-radius: 2px;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1 + p {
+    margin-top: 0;
+}
+
+
+.form-control {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+
+.form-control input, 
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+    font-size: 14px; 
+    font-family: inherit;
+    width: 100%;
+}
+
+.form-control select {
+    height: 45px;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.form-title {
+    /* display: block; */
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+button.btn-form {
+    padding: .4rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-top: 20px;
+    background-color: #151D3B;
+    color: #fff;
+    width: 100%;
+}
+
+/* #btn-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+
+
+
+
+

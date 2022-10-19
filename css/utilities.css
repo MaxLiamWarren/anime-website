@@ -1,0 +1,400 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+}
+
+.container-tw0 {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0;
+}
+
+.nav-container {
+	max-width: 1250px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 15px 10px;
+}
+
+.header-container {
+	max-width: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 15px 10px;
+}
+
+/* .jujutsu-container {
+	max-width: 1370px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 5px 20px;
+} */
+
+
+
+
+.card {
+	background-color: #fff;
+	color: var(--background);
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	padding: 15px;
+}
+
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.flex-card1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: -70px auto 0;
+}
+
+.flex-card2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-outline {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background-color: transparent;
+	color: #fff;
+}
+
+.btn-outline:hover {
+	transform: scale(0.95);
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	overflow: visible;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.grid-2 {
+	grid-template-columns: 70% auto;
+	gap: 40px;
+} 
+
+.grid-3 {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 55px;
+} 
+
+
+.grid-4 {
+	display: grid;
+	grid-template-columns:  repeat(4, 1fr);
+	gap: 30px;
+    overflow: visible;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+
+.grid-5 {
+	grid-template-columns: auto;
+	align-items: start;
+    overflow: hidden;
+}
+
+.grid-6 {
+	grid-template-columns: 70% 30%;
+}
+
+.grid-7 {
+	grid-template-columns: 1fr;
+}
+
+.grid-8 {
+	grid-template-columns: 3fr 1fr;
+	overflow: hidden;
+}
+
+/* .grid-9 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	overflow: visible;
+	gap: 40px;
+
+} */
+
+
+.grid-9 {
+	grid-template-columns: 29% 71%;
+	gap: 40px;
+}
+
+
+/* Images */
+.circle-border-img-events-primary {
+    border: 3px solid white;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	overflow: hidden;
+	shape-outside: circle();
+	background-color: none;
+	/* margin-left: 85px; */
+}
+
+.circle-border-img-events-primary > img {
+    display: block;
+	margin-left: 0.5rem;
+	margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    object-position: center;
+}
+
+.events-head .circle-border-img-events-primary {
+	justify-self: flex-end;
+}
+
+
+.circle-border-img-events-light {
+    border: 2px solid black;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	overflow: hidden;
+	shape-outside: circle();
+	background-color: none;
+	margin-left: 50px;
+}
+
+.circle-border-img-events-light > img {
+    display: block;
+	margin-left: 0.5rem;
+	margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    object-position: center;
+}
+
+.events-sub-head .circle-border-img-events-light {
+	justify-self: flex-start;
+}
+
+
+/* Backgrounds & colored buttons */
+.bg-primary {
+  background-color: #151D3B;
+  color: #fff;
+}
+
+.bg-light {
+  background-color:#EEEEEE;
+  /* background-color:#dbdbdb; */
+  color: #000000;
+}
+
+/* Card Box-shadow */
+.primary-card-styles {
+	margin: 2em 0;
+	padding: 2em;
+	box-shadow: 0 0 2rem -0.5rem rgba(0,0,0, 0.2);
+}
+
+
+
+/* Text sizes */
+.lead {
+	font-size: 1.2rem;
+	font-weight: 300;
+  }
+
+.jujutsu-text {
+	font-size: 18px;
+	font-weight: 300;
+}
+  
+  .sm {
+	font-size: 1rem;
+	font-weight: 300;
+  }
+  
+  .md {
+	font-size: 2rem;
+	font-weight: 300;
+  }
+
+  .md-plus {
+	font-size: 2rem;
+	font-weight: 400;
+  }
+  
+  .lg {
+	font-size: 3rem;
+	font-weight: 300;
+  }
+
+  .lg-plus {
+	font-size: 3rem;
+	font-weight: 400;
+  }
+  
+  .xl {
+	font-size: 3.4rem;
+	font-weight: 300;
+  }
+
+  .xl-plus {
+	font-size: 4rem;
+	font-weight: 300;
+  }
+
+
+
+
+
+/* Margin */
+.ml {
+	margin-left: -.5em;
+}
+
+
+.my-1 {
+	margin: 1rem 0;
+  }
+  
+  .my-2 {
+	margin: 1.5rem 0;
+  }
+  
+  .my-3 {
+	margin: 2rem 0;
+  }
+  
+  .my-4 {
+	margin: 3rem 0;
+  }
+  
+  .my-5 {
+	margin: 4rem 0;
+  }
+  
+  .mx-1 {
+	margin: 1rem;
+  }
+  
+  .mx-2 {
+	margin: 0 1.5rem;
+  }
+  
+  .mx-3 {
+	margin: 0 2rem;
+  }
+  
+  .mx-4 {
+	margin: 3rem;
+  }
+  
+  .mx-5 {
+	margin: 4rem;
+  }
+  
+
+  .m-1 {
+	margin: 1rem;
+  }
+  
+  .m-2 {
+	margin: 1.5rem;
+  }
+  
+  .m-3 {
+	margin: 2rem;
+  }
+  
+  .m-4 {
+	margin: 3rem;
+  }
+  
+  .m-5 {
+	margin: 4rem;
+  }
+
+
+  /* Padding */
+  .py-1 {
+	padding: 1rem 0;
+  }
+  
+  .py-2 {
+	padding: 1.5rem 0;
+  }
+  
+  .py-3 {
+	padding: 2rem 0;
+  }
+  
+  .py-4 {
+	padding: 3rem 0;
+  }
+  
+  .py-5 {
+	padding: 4rem 0;
+  }
+  
+  .p-1 {
+	padding: 1rem;
+  }
+  
+  .p-2 {
+	padding: 1.5rem;
+  }
+  
+  .p-3 {
+	padding: 2rem;
+  }
+  
+  .p-4 {
+	padding: 3rem;
+  }
+  
+  .p-5 {
+	padding: 4rem;
+  }
